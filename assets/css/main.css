@@ -1800,10 +1800,10 @@ input, select, textarea {
 			}
 
 				ul.social li a:before {
-					background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-					background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-					background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-					background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+					background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+					background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+					background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+					background-image: url("images/bg.png"), linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
 					-moz-transition: background-color .2s ease-in-out;
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
@@ -1855,7 +1855,7 @@ input, select, textarea {
 					background-color: #F2600B;
 				}
 
-				ul.social li a.fa-instagram {
+				ul.social li a.fa-angellist {
 					background-color: #E0D7C8;
 				}
 
@@ -2018,8 +2018,18 @@ input, select, textarea {
 
 		.wrapper.style4 {
 			background-color: #303030;
-			color: #999;
+			color: #fff;
 			text-shadow: -1px -1px 0px #181818;
+		}
+
+		#contact a {
+			color: white;
+			text-decoration: none;
+			font-size: 20px;
+		}
+
+		#contact strong{
+			color: white;
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
