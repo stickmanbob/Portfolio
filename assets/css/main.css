@@ -1397,6 +1397,10 @@ input, select, textarea {
 					width: 100%;
 				}
 
+				.row.icon-list > .col-12-small {
+					width: inherit;
+				}
+
 				.row > .off-12-small {
 					margin-left: 100%;
 				}
