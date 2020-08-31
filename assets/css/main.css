@@ -7,6 +7,20 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.col-4.col-6-medium.col-12-small article{
+	height:100%; 
+}
+
+.col-4.col-6-medium.col-12-small h5 {
+    position: absolute;
+    bottom: 27px;
+    left: 40%;
+}
+
+.col-4.col-6-medium.col-12-small article.box.style2 {
+    position: relative;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
