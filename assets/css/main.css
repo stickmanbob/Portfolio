@@ -2436,15 +2436,27 @@ input, select, textarea {
 		/* Nav */
 
 			#nav {
-				height: 44px;
-				line-height: 44px;
+				min-height: 44px;
+				/* line-height: 44px; */
+				height: fit-content;
 			}
 
 				#nav a {
 					padding: 0 0.75em;
 					height: inherit;
-					line-height: inherit;
+					line-height: normal;
 					border-radius: 0;
+				}
+
+				#nav ul{
+					display: flex;
+					flex-wrap: wrap;
+					align-items: center;
+					justify-content: center;
+				}
+
+				#nav li{
+					padding: 5px;
 				}
 
 					#nav a:hover {
