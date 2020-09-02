@@ -21,6 +21,15 @@
     position: relative;
 }
 
+#about-me .col-8.col-7-large.col-12-medium{
+	display: flex;
+	align-items: center;
+}
+
+#about-me .row{
+	margin-top: 20px;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
